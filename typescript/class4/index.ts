@@ -141,30 +141,64 @@
 // ===========
 // switch case
 
-var weekday: number = 2;
+// var weekday: number = 2;
 
-switch (weekday) {
-  case 1: {
-    console.log("Monday");
+// switch (weekday) {
+//   case 1: {
+//     console.log("Monday");
+//     break;
+//   }
+//   case 2: {
+//     console.log("tuesday");
+//     break;
+//   }
+//   case 3: {
+//     console.log("wednesday");
+//     break;
+//   }
+//   case 4: {
+//     console.log("Thursday");
+//     break;
+//   }
+//   case 5: {
+//     console.log("friday");
+//     break;
+//   }
+//   default:
+//     console.log("weekend");
+//     break;
+// }
+
+// if (weekday === 1) {
+//   console.log("monday");
+// } else if (weekday === 2) {
+//   console.log("tuesday");
+// } else if (weekday === 3) {
+//   console.log("wednesday");
+// } else if (weekday === 4) {
+//   console.log("thursday");
+// } else if (weekday === 5) {
+//   console.log("Friday");
+// } else if (weekday === 6) {
+//   console.log("saturday");
+// } else if (weekday === 7) {
+//   console.log("sunday");
+// } else {
+//   console.log("Wrong input");
+// }
+
+var month: string = "March";
+switch (month) {
+  case "January": {
+    console.log(1);
     break;
   }
-  case 2: {
-    console.log("tuesday");
+  case "Feb": {
+    console.log(2);
     break;
   }
-  case 3: {
-    console.log("wednesday");
+  case "March": {
+    console.log(3);
     break;
   }
-  case 4: {
-    console.log("Thursday");
-    break;
-  }
-  case 5: {
-    console.log("friday");
-    break;
-  }
-  default:
-    console.log("weekend");
-    break;
 }

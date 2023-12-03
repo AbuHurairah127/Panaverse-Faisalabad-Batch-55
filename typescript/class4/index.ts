@@ -187,18 +187,74 @@
 //   console.log("Wrong input");
 // }
 
-var month: string = "March";
-switch (month) {
-  case "January": {
-    console.log(1);
+// var month: string = "March";
+// switch (month) {
+//   case "January": {
+//     console.log(1);
+//     break;
+//   }
+//   case "Feb": {
+//     console.log(2);
+//     break;
+//   }
+//   case "March": {
+//     console.log(3);
+//     break;
+//   }
+// }
+
+// var num1: number = 10;
+// var num2: number = 20;
+// var op: string = "-";
+// switch (op) {
+//   case "+":
+//     console.log(`Sum is = ${num1 + num2}`);
+
+//     break;
+//   case "-":
+//     console.log(`Difference is = ${num1 - num2}`);
+//     break;
+//   case "*":
+//     console.log(`Product is = ${num1 * num2}`);
+//     break;
+//   case "/":
+//     console.log(`Division is = ${num1 / num2}`);
+//     break;
+//   default:
+//     console.log(`Add correct operator`);
+
+//     break;
+// }
+
+var given_alphabet: string = "a";
+switch (given_alphabet) {
+  case "a":
+    console.log("Vowel");
+
     break;
-  }
-  case "Feb": {
-    console.log(2);
+  case "e":
+    console.log("Vowel");
+
     break;
-  }
-  case "March": {
-    console.log(3);
+  case "i":
+    console.log("Vowel");
+
     break;
-  }
+  case "a":
+    console.log("Vowel");
+
+    break;
+  case "o":
+    console.log("Vowel");
+
+    break;
+  case "u":
+    console.log("Vowel");
+
+    break;
+
+  default:
+    console.log("Not a vowel");
+
+    break;
 }

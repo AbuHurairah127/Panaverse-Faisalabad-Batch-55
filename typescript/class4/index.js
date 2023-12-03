@@ -125,24 +125,105 @@
 // }
 // ===========
 // switch case
-var weekday = 2;
-switch (weekday) {
-    case 1: {
-        console.log("Monday");
-    }
-    case 2: {
-        console.log("tuesday");
-    }
-    case 3: {
-        console.log("wednesday");
-    }
-    case 4: {
-        console.log("Thursday");
-    }
-    case 5: {
-        console.log("friday");
-    }
+// var weekday: number = 2;
+// switch (weekday) {
+//   case 1: {
+//     console.log("Monday");
+//     break;
+//   }
+//   case 2: {
+//     console.log("tuesday");
+//     break;
+//   }
+//   case 3: {
+//     console.log("wednesday");
+//     break;
+//   }
+//   case 4: {
+//     console.log("Thursday");
+//     break;
+//   }
+//   case 5: {
+//     console.log("friday");
+//     break;
+//   }
+//   default:
+//     console.log("weekend");
+//     break;
+// }
+// if (weekday === 1) {
+//   console.log("monday");
+// } else if (weekday === 2) {
+//   console.log("tuesday");
+// } else if (weekday === 3) {
+//   console.log("wednesday");
+// } else if (weekday === 4) {
+//   console.log("thursday");
+// } else if (weekday === 5) {
+//   console.log("Friday");
+// } else if (weekday === 6) {
+//   console.log("saturday");
+// } else if (weekday === 7) {
+//   console.log("sunday");
+// } else {
+//   console.log("Wrong input");
+// }
+// var month: string = "March";
+// switch (month) {
+//   case "January": {
+//     console.log(1);
+//     break;
+//   }
+//   case "Feb": {
+//     console.log(2);
+//     break;
+//   }
+//   case "March": {
+//     console.log(3);
+//     break;
+//   }
+// }
+// var num1: number = 10;
+// var num2: number = 20;
+// var op: string = "-";
+// switch (op) {
+//   case "+":
+//     console.log(`Sum is = ${num1 + num2}`);
+//     break;
+//   case "-":
+//     console.log(`Difference is = ${num1 - num2}`);
+//     break;
+//   case "*":
+//     console.log(`Product is = ${num1 * num2}`);
+//     break;
+//   case "/":
+//     console.log(`Division is = ${num1 / num2}`);
+//     break;
+//   default:
+//     console.log(`Add correct operator`);
+//     break;
+// }
+var given_alphabet = "a";
+switch (given_alphabet) {
+    case "a":
+        console.log("Vowel");
+        break;
+    case "e":
+        console.log("Vowel");
+        break;
+    case "i":
+        console.log("Vowel");
+        break;
+    case "a":
+        console.log("Vowel");
+        break;
+    case "o":
+        console.log("Vowel");
+        break;
+    case "u":
+        console.log("Vowel");
+        break;
     default:
-        console.log("weekend");
+        console.log("Not a vowel");
         break;
 }

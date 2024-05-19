@@ -1,6 +1,6 @@
-import inquirer from "inquirer";
+import inquirer, { Answers, InputQuestion } from "inquirer";
 
-const input = await inquirer.prompt([
+const input: InputQuestion<Answers> = await inquirer.prompt([
   {
     name: "age",
     type: "number",
